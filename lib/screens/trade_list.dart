@@ -33,6 +33,7 @@ class _TradeListScreenState extends State<TradeListScreen> {
           state: 'Pinang',
         ),
         imageUrl: 'assets/images/item6.jpg',
+        tradeType: 1,
       ),
       TradeItem(
         id: 1,
@@ -42,6 +43,7 @@ class _TradeListScreenState extends State<TradeListScreen> {
           state: 'Kuala Lumpur',
         ),
         imageUrl: 'assets/images/item5.jpg',
+        tradeType: 2,
       ),
       TradeItem(
         id: 3,
@@ -51,6 +53,7 @@ class _TradeListScreenState extends State<TradeListScreen> {
           state: 'Johor',
         ),
         imageUrl: 'assets/images/item3.jpg',
+        tradeType: 1,
       ),
       TradeItem(
         id: 4,
@@ -60,6 +63,7 @@ class _TradeListScreenState extends State<TradeListScreen> {
           state: 'Johor',
         ),
         imageUrl: 'assets/images/item2.jpg',
+        tradeType: 1,
       ),
       TradeItem(
         id: 5,
@@ -69,6 +73,7 @@ class _TradeListScreenState extends State<TradeListScreen> {
           state: 'Pahang',
         ),
         imageUrl: 'assets/images/item1.jpg',
+        tradeType: 3,
       ),
     ];
     _filteredItem = _tradeItems;
